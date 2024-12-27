@@ -32,4 +32,30 @@ for i in range(4):
 
 print(int('5') + int('10')) 
 
+# 5. Will an error occur if you try to access a list 
+# element with an index greater than or equal to the list's length? For example:
+# foo = ['a', 'b', 'c']
+# print(foo[3])      # will this result in an error?
+
+# yes because list index start at 0 so foo[3] does not exist 
+
+# 6 To what value does the following expression evaluate?
+# 'foo' == 'Foo'
+
+# false , case sensitivity matters 
+
+# 7 What will the following code do? Why?
+# int('3.1415')
+
+# throws a value error since the provided input is not a valid integer
+
+# To what value does the following expression evaluate?
+# '12' < '9'
+
+# true since 1 is less than 9 py -3.12 -m jupyter notebook
+
+
+
+
+
 
